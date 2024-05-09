@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: TrackTime
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: user
+    password: password
+    url: url
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: create-drop
+
+
